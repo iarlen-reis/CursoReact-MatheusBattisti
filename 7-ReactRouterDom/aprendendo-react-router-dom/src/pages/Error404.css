@@ -1,0 +1,15 @@
+.error__container {
+    max-width: 400px;
+    margin: 0 auto;
+    
+    color: #DFDFDF;
+
+    border: 1px solid #0000;
+    border-radius: 5px;
+
+    background: rgba(161, 12, 12, 0.952);
+}
+
+.error__container p {
+    font-weight: bold;
+}

@@ -1,0 +1,31 @@
+.heading {
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 5px;
+    border: 1px solid #2b2727;
+    background: rgba(128, 128, 128, 0.64);
+}
+
+.heading h1 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+
+    color: #FFFF;
+}
+
+.heading p {
+    font-size: 1rem;
+    text-transform: uppercase;
+
+    color: #FFFF;
+}
+
+.heading p span {
+    font-weight: bold;
+    color: crimson;
+}
