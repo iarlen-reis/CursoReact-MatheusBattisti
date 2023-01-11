@@ -1,6 +1,8 @@
 import React from "react";
-import { useSearchParams, Link } from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
 import { useFetch } from "../hooks/useFetch";
+
+import ShowProduct from "../components/ShowProduct";
 
 const Search = () => {
   const [seachParams] = useSearchParams();
@@ -16,11 +18,7 @@ const Search = () => {
       <ul className="products">
         {items &&
           items.map((item) => (
-            <li key={item.id}>
-              <h2>{item.name}</h2>
-              <p>R$: {item.price}</p>
-              <Link to={`/products/${item.id}/info`}>Detalhes</Link>
-            </li>
+            <ShowProduct id={item.id} name={item.name} price={item.price} />
           ))}
       </ul>
     </section>

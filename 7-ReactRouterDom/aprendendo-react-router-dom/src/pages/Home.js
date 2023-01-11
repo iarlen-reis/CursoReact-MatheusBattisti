@@ -1,9 +1,11 @@
-import { Link } from "react-router-dom";
+import React from "react";
+// import { Link } from "react-router-dom";
 import { useFetch } from "../hooks/useFetch";
+
+import ShowProduct from "../components/ShowProduct";
 
 import "./Home.css";
 
-import React from "react";
 const Home = () => {
   // Caregamento de dados
 
@@ -17,12 +19,7 @@ const Home = () => {
       <ul className="products">
         {items &&
           items.map((item) => (
-            <li key={item.id}>
-              <h2>{item.name}</h2>
-              <p>R$ {item.price}</p>
-              {/* Rota dinâmica */}
-              <Link to={`/products/${item.id}`}>Detalhes</Link>
-            </li>
+            <ShowProduct id={item.id} name={item.name} price={item.price} />
           ))}
       </ul>
     </section>
