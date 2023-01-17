@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section className={styles.container__about}>
       <h2>
-        Sobre o mini <span>Blog</span>
+        Sobre o Life <span>Shared</span>
       </h2>
       <p>
         Este projeto consiste em um blog feito com React no front-end e Firebase

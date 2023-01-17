@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div>
-        <h3>Escreva sobre o que você tem interesse!</h3>
-        <p>Mini Blog &copy; 2023</p>
+        <h3>Compartilhe momentos e experiências!</h3>
+        <p>Life Shared &copy; 2023</p>
       </div>
     </footer>
   );

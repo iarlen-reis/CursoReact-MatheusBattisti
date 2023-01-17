@@ -12,13 +12,13 @@ const DashboardPosts = ({ post }) => {
   return (
     <li key={post.id}>
       <h3>
-        Titulo da postagem: <span>{post.title}</span>
+        Titulo da postagem: <br /> <span>{post.title}</span>
       </h3>
       <div>
         <Link to={`/posts/${post.id}`} className="btn btn__outline">
           Ver
         </Link>
-        <Link to={`/edit/${post.id}`} className="btn btn__outline">
+        <Link to={`/posts/edit/${post.id}`} className="btn btn__outline">
           Editar
         </Link>
         <button
