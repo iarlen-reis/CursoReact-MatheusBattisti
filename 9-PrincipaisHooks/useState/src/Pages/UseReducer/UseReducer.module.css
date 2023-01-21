@@ -1,0 +1,187 @@
+.section {
+    max-width: 1150px;
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+
+    text-align: center;
+
+    padding: 1.5rem 2rem;
+}
+
+.section main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 1rem;
+    padding: 1rem;
+    row-gap: 0.5rem;
+
+    border: 1px solid #000;
+
+}
+
+.section header {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    text-align: center;
+    
+    row-gap: 0.3rem;
+}
+
+.section header p {
+    max-width: 700px;
+}
+
+
+.section main .example__1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    row-gap: 0.5rem;
+}
+
+.example__1 button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem 0.6rem;
+
+    cursor: pointer;
+    
+    font-size: 1rem;
+    font-weight: 500;
+
+    border: none;
+    border-radius: 5px;
+
+    color: #000;
+    background: gray;
+
+    transition: .8s;
+}
+
+.example__1 button:hover {
+    color: #FFFF;
+    background: rgb(70, 65, 65);
+}
+
+.example__1 button ~ p {
+    font-weight: 500;
+
+    margin-top: .5rem;
+
+    color: #00567A;
+}
+
+.example__2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.example__2 h3 {
+    margin: .5rem 0
+}
+
+.example__2 p {
+    max-width: 700px;
+    font-weight: 500;
+}
+
+.example__2 h4 {
+    margin: .5rem 0;
+}
+
+.example__2 ul {
+    width: 400px;
+    border: 1px solid #000;
+}
+
+.example__2 ul li {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0.8rem;
+}
+
+.example__2 ul li input[type="button"] {
+    padding: 0.4rem;
+    cursor: pointer;
+
+    border: none;
+    border-radius: 4px;
+
+    font-weight: 600;
+
+    background-color: #AAA;
+
+    transition: .4s;
+}
+
+.example__2 ul li input[type="button"]:hover {
+
+    color: #DFDF;
+    background-color: crimson;
+}
+
+.example__2 form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: .5rem;
+    row-gap: .5rem;
+    margin: 1rem 0;
+}
+
+.example__2 label {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.example__2 form label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.example__2 form label span {
+    font-weight: 500;
+}
+
+.example__2 button {
+    display: flex;
+    
+    padding: .4rem .7rem;
+    
+    border: none;
+    border-radius: 5px;
+
+    font-weight: 500;
+
+    background: #AAA;
+
+    margin-top: 0.5rem;
+
+    cursor: pointer;
+
+    transition: .7s;
+
+    margin-top: 1.5rem;
+
+}
+
+
+.example__2 button:hover {
+    color: #FFF;
+    background: rgb(94, 62, 62);
+}
+

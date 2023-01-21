@@ -1,0 +1,137 @@
+.section {
+    max-width: 1150px;
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+
+    text-align: center;
+
+    padding: 1.5rem 2rem;
+}
+
+
+.section header {
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+
+    margin-bottom: 1.5rem;
+}
+
+.section header h1 {
+    font-size: 1.8rem;
+}
+
+.section main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    row-gap: 0.5rem;
+    text-align: center;
+        
+    padding: 1rem;
+
+    border: 1px solid #000;
+}
+
+.section main p {
+    max-width: 700px;
+}
+
+.examples {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 1.5rem;
+}
+
+.examples section {
+    display: flex;
+    column-gap: 1.5rem;
+
+    margin-bottom: 0.5rem;
+}
+
+.examples span {
+    font-weight: bold;
+}
+
+.examples button {
+    padding: 0.3rem 0.5rem;
+    border: none;
+    
+    font-weight: 500;
+
+    border-radius: 4px;
+    cursor: pointer;
+
+    color: #000;
+    background: #aaa;
+
+    transition: 1s;
+
+    margin: 1rem 0;
+}
+
+.examples button:hover {
+    color: azure;
+    background: rgb(106, 105, 105);
+}
+
+.exemple__explication {
+    transition: 1s;
+    display: none;
+
+    margin-bottom: 1rem;
+}
+
+.clicked {
+    transition: 1s;
+
+    display: block;
+    color: #00567A;
+    font-weight: 600;
+}
+
+.states__inputs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.states__inputs form {
+    padding: 1rem;
+}
+
+.states__inputs form label {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.3rem;
+    text-align: start;
+}
+
+.states__inputs form label span {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.states__inputs form label input {
+    padding: 0.3rem 1rem;
+    outline: none;
+    border: none;
+
+    border-radius: 4px;
+}
+
+.states__inputs form label input:focus {
+    outline: 1px solid rgb(154, 21, 48);
+}
+
+.states__inputs form ~ p {
+    text-align: start;
+    color: #00567A;
+    font-weight: 600;
+
+
+}
