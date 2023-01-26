@@ -11,7 +11,7 @@ const Home = () => {
         </p>
       </header>
       <div className={styles.image}>
-        <img src="public/undraw_online_stats_0g94.svg" alt="" />
+        <img src="/undraw_online_stats_0g94.svg" alt="" />
       </div>
     </section>
   );
