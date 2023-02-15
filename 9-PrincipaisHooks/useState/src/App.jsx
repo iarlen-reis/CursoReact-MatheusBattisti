@@ -9,7 +9,7 @@ import "./App.css";
 import Home from "./Pages/Home/Home";
 import UseState from "./Pages/UseState/UseState";
 import UseReducer from "./Pages/UseReducer/UseReducer";
-
+import UseEffect from "./Pages/UseEffect/UseEffect";
 // Components
 import NavBar from "./components/NavBar/NavBar";
 
@@ -22,6 +22,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/use-state" element={<UseState />} />
           <Route path="/use-reducer" element={<UseReducer />} />
+          <Route path="/use-effect" element={<UseEffect />} />
         </Routes>
       </BrowserRouter>
     </div>

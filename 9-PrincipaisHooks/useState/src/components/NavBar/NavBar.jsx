@@ -14,6 +14,9 @@ const NavBar = () => {
           <li>
             <NavLink to="/use-reducer">useReducer</NavLink>
           </li>
+          <li>
+            <NavLink to="/use-effect">useEffect</NavLink>
+          </li>
         </ul>
       </nav>
     </aside>
