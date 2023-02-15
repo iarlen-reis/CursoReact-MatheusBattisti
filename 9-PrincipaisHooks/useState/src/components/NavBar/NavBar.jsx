@@ -17,6 +17,12 @@ const NavBar = () => {
           <li>
             <NavLink to="/use-effect">useEffect</NavLink>
           </li>
+          <li>
+            <NavLink to="/use-context">useContext</NavLink>
+          </li>
+          <li>
+            <NavLink to="/use-ref">useRef</NavLink>
+          </li>
         </ul>
       </nav>
     </aside>

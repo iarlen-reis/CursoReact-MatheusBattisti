@@ -5,18 +5,16 @@ import { useEffect, useState } from "react";
 
 const UseEffect = () => {
   const [show, setShow] = useState("");
-  const [showDepedences, setShowDepedences] = useState(false);
   const [showText, setShowText] = useState("");
-
   useEffect(() => {
     setShow("Toda vez que a página for recarregada serei exibido.");
   }, []);
 
   useEffect(() => {
-    setShowText(
-      "Estou sendo exibido por causa que o array de dependência foi modificado ao clicar no botão!"
+    console.log(
+      "Sou executado toda vez que o valor da dependência é alterado!"
     );
-  }, [showDepedences]);
+  }, [showText]);
   return (
     <main className={styles.container}>
       <header className={styles.intro__description}>
@@ -46,11 +44,8 @@ const UseEffect = () => {
         <div className={styles.with__depedences}>
           <h2>useEffect com dependências</h2>
           <p>- Será executado apenas quando uma dependência for modificada:</p>
-
-          {showDepedences && <p>{showText}</p>}
-          <button onClick={() => setShowDepedences(!showDepedences)}>
-            Clique Aqui!
-          </button>
+          <p>ShowText: {showText}</p>
+          <button onClick={() => setShowText("Mudei!")}>Mudar showText</button>
         </div>
       </div>
     </main>

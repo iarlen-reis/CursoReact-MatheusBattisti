@@ -1,0 +1,62 @@
+.container {
+    width: 100%;
+    max-width: 1150px;
+    min-height: 100vh;
+
+    text-align: center;
+    
+    margin: 0 auto;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    row-gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.description p {
+    text-align: start;
+    width: 600px;
+}
+
+.counters {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    
+    margin-bottom: 2rem;
+}
+
+
+.counters form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.counters button {
+    width: 200px;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+.counters input {
+    width: 400px;
+    padding: 0.5rem;
+
+}
+
+.counters label {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+
+    text-align: start;
+
+    margin: 0 auto;
+
+}

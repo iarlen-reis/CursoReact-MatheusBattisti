@@ -1,0 +1,36 @@
+.container {
+    width: 100%;
+    max-width: 1150px;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+
+    margin: 0 auto;
+}
+
+.descripton {
+    margin-bottom: 1rem;
+}
+
+.descripton p {
+    max-width: 600px;
+    margin-top: 0.5rem;
+
+}
+
+.contextList ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin-top: 0.5rem;
+}
+
+.contextList p {
+    margin-top: 2rem;
+    font-weight: bold;
+}
