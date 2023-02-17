@@ -23,6 +23,21 @@ const NavBar = () => {
           <li>
             <NavLink to="/use-ref">useRef</NavLink>
           </li>
+          <li>
+            <NavLink to="/use-callback">useCallback</NavLink>
+          </li>
+          <li>
+            <NavLink to="/use-memo">useMemo</NavLink>
+          </li>
+          <li>
+            <NavLink to="/use-layout">useLayoutEffect</NavLink>
+          </li>
+          <li>
+            <NavLink to="/use-imperative">useImperative</NavLink>
+          </li>
+          <li>
+            <NavLink to="/use-custom">useCustom</NavLink>
+          </li>
         </ul>
       </nav>
     </aside>

@@ -1,0 +1,44 @@
+.container {
+    width: 100%;
+    max-width: 1150px;
+    min-height: 100vh;
+
+    margin: 0 auto;
+}
+
+.description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    
+
+    row-gap: 0.5rem;
+
+    margin: 0 auto;
+}
+
+.description p {
+    max-width: 600px;
+    text-align: center;
+}
+
+.description small {
+    color: crimson;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.pratice {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 2rem;
+}
+
+.pratice button {
+    padding: 0.4rem 0.6rem;
+}
